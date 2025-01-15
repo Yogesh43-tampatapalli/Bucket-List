@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bucketlist2</title>
+    <style>
+        *{
+             padding: 0%;
+             margin: 0%;
+             box-sizing: border-box;
+        }
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            background-color:rgb(211, 208, 208);
+            color: black;
+        }
+        header{
+            text-align: center;
+            background-color: rgba(219, 219, 188, 0.619);
+            padding:50px;
+            margin: 10px;
+        }
+        h1{
+            font-size: 3em;
+        }
+        .bucket{
+            margin: 2px auto;
+            width: 100%;
+            max-width: 500px;
+
+        }        
+        .list{
+            list-style-type: none;
+            padding: 0%;
+        }
+        .itemslist{
+            align-items: centre;
+            background-color: beige;
+            border-radius: 3px;
+            color: black;
+            font-size: medium;
+            padding: 15px;
+            margin: auto 300px;
+            margin-bottom: 5px;
+            box-shadow: 4px 1px rgb(114, 114, 114);
+            justify-content: space-between;
+            display: flex;
+        }
+        .item-text:hover{
+            background-color: rgba(219, 219, 188, 0.619);
+        }
+        .item-checkbox{
+            transform:scale(2);
+        }
+        footer{
+            text-align: center;
+            font-size: medium;
+            margin-top:50px;
+        }
+        footer p{
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Bucket List</h1>
+     </header>
+    <div class="Bucket">
+        <ul class="list">
+            <li class="itemslist">
+                 <span class="item-text" >Become a Billionaire</span>
+                 <input type="checkbox" class="item-checkbox">
+            </li>
+            <li class="itemslist">
+                 <span class="item-text">Visit the Seven Wonders of World</span>
+                 <input type="checkbox" class="item-checkbox">
+            </li>
+            <li class="itemslist">
+                 <span class="item-text">Attend a major Sport Event</span>
+                 <input type="checkbox" class="item-checkbox">
+            </li>
+            <li class="itemslist">
+                 <span class="item-text">Starting my own Bussiness</span>
+                 <input type="checkbox" class="item-checkbox">
+            </li>
+            <li class="itemslist">
+                 <span class="item-text">Achieve my Fitness Goal</span>
+                 <input type="checkbox" class="item-checkbox">
+            </li>
+            <li class="itemslist">
+                 <span class="item-text">Experience a Game Night with old school friends</span>
+                 <input type="checkbox" class="item-checkbox">
+            </li>
+            
+        </ul>
+    </div>
+    <footer>
+        <p>Created by "Yogesh Tampatapalli"</p></footer>
+</body>
+</html>
